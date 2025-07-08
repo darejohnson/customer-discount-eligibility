@@ -1,0 +1,33 @@
+# Ignore the virtual environment folder
+myenv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.DS_Store
+.env
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model files (optional)
+*.pth
+*.h5
+
+# Ignore environment and dependency files (optional)
+.env
+.envrc
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings (optional)
+.vscode/
